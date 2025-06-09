@@ -1,0 +1,6 @@
+process
+---------------------
+1) write a program to findout & area of circle using given radius
+2) write a program to findout & area of triangle using given height & base
+3) write a program to findout & area of cylinder using given radius & height 
+4) write a program to findout & display simple interest amount using given amount, rate, year 
