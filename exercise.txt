@@ -4,3 +4,15 @@ process
 2) write a program to findout & area of triangle using given height & base
 3) write a program to findout & area of cylinder using given radius & height 
 4) write a program to findout & display simple interest amount using given amount, rate, year 
+
+logic 
+----------------------------------
+1) write a program to convert given grams into kilograms and remaining grams 
+    input : 1500 grams 
+    output : 1 kg & 500 grams 
+2) write a program to convert given inches into foot and remaining inches 
+    input : 65 inch 
+    output : 5 foot & 5 inch 
+3) write a program to reverse 3 digit amount 
+    input : 123
+    ouput : 321
