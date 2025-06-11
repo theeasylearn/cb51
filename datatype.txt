@@ -1,0 +1,56 @@
+Common Datatypes, Sizes, and Ranges
+
+The ranges are based on the two’s complement representation for signed types, which is standard in most systems. The sizes and ranges below are typical for modern 32-bit or 64-bit systems.
+
+    int (signed int):
+        Size: Typically 4 bytes (32 bits).
+        Range: -2,147,483,648 to 2,147,483,647 (i.e., -2³¹ to 2³¹ - 1).
+        Format specifier: %d or %i.
+
+    unsigned int:
+        Size: Typically 4 bytes (32 bits).
+        Range: 0 to 4,294,967,295 (i.e., 0 to 2³² - 1).
+        Format specifier: %u.
+
+    long int (signed long int):
+
+    Size:
+        Typically 4 bytes on 32-bit systems (same as int in many cases).
+        Typically 8 bytes on 64-bit systems (e.g., GCC on Linux, Windows 64-bit).
+        Note: On some systems (e.g., Windows with MSVC), long int is 4 bytes even on 64-bit systems.
+    Range (assuming 8 bytes on a 64-bit system):
+        Minimum: -2⁶³ = -9,223,372,036,854,775,808 (LONG_MIN from <limits.h>).
+        Maximum: 2⁶³ - 1 = 9,223,372,036,854,775,807 (LONG_MAX).
+        For 4-byte long int: -2,147,483,648 to 2,147,483,647 (same as int).
+    Format specifier: %ld (for printf and scanf).
+
+    unsigned long int:
+
+    Size: Same as long int (4 bytes on 32-bit, 8 bytes on 64-bit systems).
+    Range (assuming 8 bytes):
+        Minimum: 0.
+        Maximum: 2⁶⁴ - 1 = 18,446,744,073,709,551,615 (ULONG_MAX).
+        For 4-byte unsigned long int: 0 to 4,294,967,295 (same as unsigned int).
+    Format specifier: %lu.
+    
+    float:
+        Size: Typically 4 bytes (32 bits, IEEE 754 single-precision).
+        Range: Approximately ±3.4 × 10³⁸ (with 6–7 decimal digits of precision).
+        Format specifier: %f.
+        Note: Exact min/max values are complex due to floating-point representation, but practical limits are around ±3.4E+38.
+
+    double:
+        Size: Typically 8 bytes (64 bits, IEEE 754 double-precision).
+        Range: Approximately ±1.7 × 10³⁰⁸ (with 15–16 decimal digits of precision).
+        Format specifier: %lf.
+        Note: Much larger range and higher precision than float.
+
+    char (signed char):
+        Size: 1 byte (8 bits).
+        Range: -128 to 127 (i.e., -2⁷ to 2⁷ - 1).
+        Format specifier: %c (for character) or %d (for numeric value).
+
+    unsigned char:
+        Size: 1 byte (8 bits).
+        Range: 0 to 255 (i.e., 0 to 2⁸ - 1).
+        Format specifier: %c (for character) or %u (for numeric value).

@@ -1,0 +1,79 @@
+What are the decision making/ conditional statements in c?
+-----------------------------------------------
+sometimes we need to execute few line of code conditionally. in such case we need to use decision making statements. it means execution of code depends on upon condition(relational expression). if condition is true then code block will execute otherwise not. there are many different types of decision making statements in c language 
+
+    1) simple if decision making statements
+    2) if else decision making statements
+    3) if else if ladder decision making statements
+    4) nested decision making statements
+    5) switch decision making statements
+
+1) simple if decision making statements
+    here we check some condition (relational expression). if condition is true then only code block given inside {} pair will execute. 
+    syntax 
+    -------------------------------------------------
+        if (relational expression)
+        {
+
+        }
+
+    example
+    
+2) if else decision making statements
+    here we also check some condition (relational expression). if condition is true then only code block given inside {} pair will execute after condition will execute otherwise code block given after else inside {} will execute. 
+     syntax 
+    -------------------------------------------------
+        if (relational expression)
+        {
+            
+        }
+        else 
+        {
+            
+        }
+
+3) if else if ladder decision making statements.
+here we check 1st condition, if it is true code block after 1st condition will execute otherwise 2nd condition we 2nd condition, if is is true code block after 2nd condition will execute and so on. if all conditions are false then code block after else block will execute. 
+syntax 
+if (condition)
+{
+    //some code will execute 
+}
+else if(condition)
+{
+    //this code block will execute 
+}
+else if(condition)
+{
+    //this code block will execute 
+}
+else 
+{
+    //this code block will execute if all conditions are false. 
+}
+
+4) switch decision making statements
+--------------------------------------------------------------------
+switch decision making statements are used when we need to check multiple condition on same variables using equal to operators. in this first we put variable into switch. then we check condition inside braces pair using case keyword. here variable's value will be compare with one value. if both are same all statements between case and break statements will execute. if none of value given in the case match with variable, then default statements will execute.
+
+switch(variable)
+{
+    case value:
+        //code block 1
+    break;
+
+    case value:
+        //code block 2 
+    break;
+
+    case value:
+        // code block 3
+    break;
+    default:
+        // code block 4
+}
+
+5) nested decision making statements.
+--------------------------------------------------------------------
+   when we use one type of decision making statements inside any other types of decision making statements, it is called nested decision making statements. we can use any of level.
+

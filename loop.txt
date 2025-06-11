@@ -1,0 +1,83 @@
+looping statement
+------------------------------------------
+in program, there may be situations where we need to repeat block of code multiple times. in such case we might use loop. loop has two part 
+    1) condition (control how many times loop will run )
+    2) body block of code (which execute many times)
+
+each loop has condition. condition means relational expression if it is evaluated as true then block of code will be executed once. then condition is automatically checked again, if true again block of code will execute. this process will continue until condition is evaluated as false. 
+
+there are 2 types of loop 
+    1) entry control loop 
+        while loop 
+        for loop 
+    2) exit control loop
+        do while loop 
+
+1) while loop 
+    in while loop we check condition after while keyword. if condition is true then code block given inside { } pair will execute once. then again condition is checked if true code block given {} execute again. this will continue until condition is false. 
+
+    syntax
+    -------------------------------
+    while (condition)
+    {
+        // code block will execute if condition is true 
+    }
+
+
+2) for loop 
+----------------------------------------------
+like while loop, for loop is also entry control loop. means here also condition is checked before loop execute, if condition is true code block given {} pair will execute. but for loop is different from while loop in way that, we give initial value to variable, condition and increment/decrement in single line. 
+syntax
+for(initialization;condition;increment/decrement)
+{
+    //body of loop 
+}
+1st time, initialization is done and then condition is checked
+2nd time onwards, 1st increment/decrement happens and then condition is checked
+example
+for(;;)
+{
+    //code 
+}
+
+3) do while loop 
+  --------------------------------------
+  do while loop is exit control loop. do while always execute at least once. then condition is checked. if condition is true loop body will execute again and so on. 
+  syntax 
+
+  do 
+  {
+
+  }while(relational expression);  
+  
+  example 
+  //100 90 80 70 60 .... 10
+  count = 100;
+  do 
+  {
+     printf("%d",count); //80
+     count=count - 10; //70
+  }while(count>=10); //0>=10
+printf("\n good bye");
+
+nested loop 
+    when we use any loop inside any other loop, it is nested loop. we can use for loop inside while loop, or while loop inside for loop. we can use do while inside for/while loop or vice versa. 
+
+    example 
+    int i = 1, j= 1;
+    while(i<=5) //outer loop 
+    {
+        printf("%5d",i);
+        i = i + 1;
+        printf("(");
+        //inner while loop start
+        j=1;
+        while(j<=3) //inner while loop 
+        {
+            printf("%2d",j);
+            j = j + 1;
+        }
+        printf(")");
+    }
+1(1 2 3)2(1 2 3)3(1 2 3) 
+    

@@ -1,0 +1,46 @@
+What is functions?
+    function is named program in c language that can be executed/run/called from main program as well as other functions.
+    each and every function has 
+        1 return type (optional)
+        2 name (required)
+        3 inputs (optional)
+        4 body (block of code) (required)
+
+    each and every function should do only one task. the main idea of using function is not to repeat code in program. if we repeat code there will be many issue while updating code. but if we use functions code will be shorter, easy to understand and easy to change. 
+    function can return at most 1 value.
+
+    types of function
+        Library function 
+            functions which are provide by c language Library is called Library function 
+            such as printf, scanf, fflush(stdin) etc 
+        User defined function (U.D.F) 
+            function developed by developer(user) is called user defined function.
+            there are 4 types of U.D.F.
+                1   without return value without argument function 
+                2   with return value without argument function 
+                3   with return value with argument function 
+                4   without return value with argument function 
+        how to create function 
+
+        syntax 
+        -----------------------------------
+        return type function-name(arguments)
+        {
+            code...
+        }
+
+        how to use/call/run/execute 
+
+        function-name();
+
+what is recursion?
+---------------------
+when function call it self repeatedly until some condition is evaluated as false, is called recursion.
+recursion is difficult to understand therefore change. it must last option to solve any problem as it very resource hungry approach means it will use too much processing power and memory. 
+
+rules 
+-------------------------------------------------------------------------------
+1) each and every function in recursion will always complete. it will not remain uncomplete. 
+2) function called in recursion will always complete in reverse order of calling.
+3) each argument & we pass in recursion & local variables created in function occupy separate memory location for each function call.
+4) must have some condition which stop recursion

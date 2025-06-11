@@ -1,0 +1,39 @@
+what is string?
+string is sequence of letters that ends with \0 (null). 
+some example of string 
+name,surname,address, city etc 
+
+there is no datatype in c language to store string. so we use 1d array of character to store string.
+how to create string?
+
+char name[32],surname[32],address[512];
+
+how to take input from user in string usinc scanf? 
+example
+string name[32]
+
+printf("enter your name");
+scanf("%s",name);
+
+scanf function accept string without space. if user give space scanf function will stop.
+
+to accept string with sapce we must use gets function
+
+example 
+string address[512]
+
+printf("enter your address");
+gets(address); 
+
+how to display string?
+
+we can display string either using printf function or using puts function
+
+example
+printf("%s",name);
+puts(address);
+
+
+how to store many student names. to store many names (string) we can create array of string. 2d array of char is 1d array of string 
+how to create 2d array of char?
+char name[6][32];

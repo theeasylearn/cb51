@@ -1,0 +1,87 @@
+what are the operators?
+------------------------------------------
+some special symbols which are used to do some operations are called operators.
+
+let us see few very common operators like + - * / %. these all are operators used in mathematical process. 
+
+there are 2 main categories of operators
+    binary operators
+        binary operators works upon 2 value/variable. value or variable upon which operators work are also known as operands 
+        like + - / * % 
+        for example 
+        c = a + b
+        c = a - b
+        c = a * b
+    unary operators
+        binary operators works upon 1 value/variable
+        for example 
+        a = -a;
+        a++ 
+        --a 
+
+use wise categories of operators 
+------------------------------
+ 
+arithmetic operators
+  it is used to do mathematical operations 
+  examples are + - * / %
+ 
+relational operators/ comparison 
+  it is used to compare variables/value. it always give result in terms true (1) or false(0)
+  
+  1 == used to check 2 variable has same value or not  
+  2 != used to check 2 variable has different value or not  
+  3 <  used to check whether left side variable is less then right side variable or not 
+  4 >  used to check whether right side variable is greater then left side variable or not 
+  5 <= used to check left side variable is less then or equal to right side variable
+  6 >= used to check right side variable is greater then or equal to left side variable
+
+logical operators.
+    logical operators are used to combine two or more relational expressions. there are 3 logical operators. logical operators also return 1 (true) or 0 (false).
+         for example 
+         (1)   (2)
+         a < b logical-operator b > c 
+        1) and operator (&&)
+            and operators check both relational expressions. if both expressions are true(1) it return true(1) otherwise it return false(0)
+        2) or operator (||)
+            or operators check both relational expressions. if any one of the expressions are true(1) it returns true(1) otherwise it returns false. 
+            
+        3) not operator (!)
+            not operator reverse result of any relational expressions. if relational is true it returns false. if relational expressions false it return true
+
+assignment operators
+-------------------------------------------------------------------------
+    assignment operators are used to write down any mathematical expressions in shorter way. 
+
+    assignment operators 
+    += can be as a+=b when we need write a = a + b
+    += can be as a+=1 when we need write a = a + 1
+    -= can be as a-=b when we need write a = a - b
+    *= can be as a*=b when we need write a = a * b
+    /= can be as a/=b when we need write a = a / b
+    %= can be as a%=b when we need write a = a % b
+
+    unary operator
+
+        1 operands and 1 operator
+        a++  can be write as a = a + 1 (postfix)
+            first assign and then increment 
+        ++a can be write as a = a + 1 (prefix)
+            first in increment then assign
+    a = 10 
+    b = 0 
+
+    b = a  // 10 
+    a= a + 1 // 11
+
+    OR 
+    b = a++ (postfix )
+    
+    a = 10 
+    b = 0 
+
+    a = a + 1 
+    b = a 
+
+    OR 
+    b = ++a
