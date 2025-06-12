@@ -1,6 +1,6 @@
-What are the decision making/ conditional statements in c?
+What are the decision making/conditional statements in c?
 -----------------------------------------------
-sometimes we need to execute few line of code conditionally. in such case we need to use decision making statements. it means execution of code depends on upon condition(relational expression). if condition is true then code block will execute otherwise not. there are many different types of decision making statements in c language 
+sometimes we need to execute few line of codes conditionally. in such case we need to use decision making statements. it means execution of code depends on upon condition(relational expression). if condition is true then code block will execute otherwise not. there are many different types of decision making statements in c language 
 
     1) simple if decision making statements
     2) if else decision making statements
