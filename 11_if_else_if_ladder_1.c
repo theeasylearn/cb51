@@ -40,5 +40,32 @@ void main()
     float tax,net_income;
     printf("enter monthly income");
     scanf("%d",&monthly_income);
+
+    gross_income = monthly_income*12 ; 
+
+    if(gross_income>=2400001){
+        tax = (gross_income*30)/100 ; 
+    }
+    else if(gross_income<2400001 && gross_income>=2000001){
+        tax =  (gross_income*25)/100 ;
+    }
+    else if (gross_income>=1600001 && gross_income<2000001)
+    {
+       tax =  (gross_income * 20) / 100 ;
+    }
+    else if(gross_income>=1200001 && gross_income<1600001) {
+        tax =  (gross_income * 15) / 100  ;
+    }
     
+    else{
+        tax = (gross_income*5)/100;
+    }
+
+
+    net_income = gross_income-tax ; 
+
+    printf("\ngross : %d",gross_income);
+    printf("\n%.2f",tax);
+    printf("\nnet income : %.2f",net_income);
+
 }
