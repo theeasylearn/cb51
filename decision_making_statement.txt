@@ -54,7 +54,7 @@ else
 
 4) switch decision making statements
 --------------------------------------------------------------------
-switch decision making statements are used when we need to check multiple condition on same variables using equal to operators. in this first we put variable into switch. then we check condition inside braces pair using case keyword. here variable's value will be compare with one value. if both are same all statements between case and break statements will execute. if none of value given in the case match with variable, then default statements will execute.
+switch decision making statements are used when we need to check multiple conditions on same variables using only equal to operator. in switch, first we put variable into switch. then we check condition inside braces pair using case keyword. here variable's value will be compare with case value. if both are same all statements between case and break statements will execute. we can give as many cases as required. if none of value given in the case match with variable, then all lines after default statements will execute.
 
 switch(variable)
 {
