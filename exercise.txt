@@ -34,7 +34,8 @@ if decision statements
 
 5) write a program to accept month number from user and display name of the month (switch statements)
 
-6) write a program to check whether given year is leap year or not. (nested)
+6) write a program to check whether given year is leap year or not. (use nested decision making)
+use website wikihow for understanding of concept
 
 8) write a program to accept birth date and month from user. decide zodiac sign from below table 
 Aries: March 21–April 19

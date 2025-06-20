@@ -1,4 +1,4 @@
-// write a program that perform grad system
+// write a program that perform grade system
 // 90-100 -> A
 // 80-90 -> B
 // 70-80 -> C
@@ -28,9 +28,10 @@ void main()
     printf("enter science marks : ");
     scanf("%d",&science);
 
+    //nested decision making statement (outer statement)
     if((eng<=100 && eng>=0) && (maths<=100 && maths>=0) && (science<=100 && science>=0)){
         percentage = ((eng+maths+science)*100)/300 ;
-
+        //inner decision making
         if(percentage>=90 && percentage<=100){
             grad='A';
         }
@@ -50,7 +51,7 @@ void main()
         else{
             grad='F';
         }
-
+        //another inner decision making statement
         printf("\npercentage : %.2f %%",percentage);
         printf("\ngrad : %c",grad);
         if(percentage>=60){
