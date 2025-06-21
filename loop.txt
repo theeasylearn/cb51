@@ -1,7 +1,7 @@
 looping statement
 ------------------------------------------
 in program, there may be situations where we need to repeat block of code multiple times. in such case we might use loop. loop has two part 
-    1) condition (control how many times loop will run )
+    1) condition/relational expression (control how many times loop will run )
     2) body block of code (which execute many times)
 
 each loop has condition. condition means relational expression if it is evaluated as true then block of code will be executed once. then condition is automatically checked again, if true again block of code will execute. this process will continue until condition is evaluated as false. 
@@ -18,11 +18,11 @@ there are 2 types of loop
 
     syntax
     -------------------------------
+    
     while (condition)
     {
         // code block will execute if condition is true 
     }
-
 
 2) for loop 
 ----------------------------------------------
