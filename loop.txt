@@ -27,6 +27,7 @@ there are 2 types of loop
 2) for loop 
 ----------------------------------------------
 like while loop, for loop is also entry control loop. means here also condition is checked before loop execute, if condition is true code block given {} pair will execute. but for loop is different from while loop in way that, we give initial value to variable, condition and increment/decrement in single line. 
+
 syntax
 for(initialization;condition;increment/decrement)
 {
