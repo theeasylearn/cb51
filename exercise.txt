@@ -71,6 +71,9 @@ loop
 10) 1, 1, 2, 5, 14
 11) 1, 7, 10, 13, 19
 
+write a program to display uppercase alphabets and their ascii code 
+write a program to display digits and their ascii code 
+
 write a program to findout factorial of given number 
 12) write a program to findout whether given number is composite or not 
 13) write a program to findout whether given number is perfect or not 
