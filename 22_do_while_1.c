@@ -43,5 +43,7 @@ void main()
         }
         num++; // num = num + 1
     }while(num<=100);
+
+    
     printf("\n end of program");
 }
