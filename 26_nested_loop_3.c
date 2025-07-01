@@ -20,7 +20,7 @@ void main()
     }
     for (int astrik=0; astrik < limit; astrik++)
     {
-      printf("*");
+      printf("* ");
     }
     limit++;
     space = 1;

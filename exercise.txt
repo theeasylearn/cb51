@@ -105,11 +105,11 @@ write a program to findout factorial of given number
 54321
 
 ------------------------------------
-    *
-   * *
-  * * * 
- * * * *
-* * * * *
+    1
+   0 1
+  1 0 1 
+ 0 1 0 1
+0 1 0 1 0
 ------------------------------------    
     *
    * *
@@ -126,9 +126,32 @@ write a program to findout factorial of given number
   * * * 
    * *
     *
+---------------------------------------------
+    1 2
+    1 2 1
+    1 2 1 2
+    1 2 1 2 1
+----------------------------------------------
+    5 4 3 2 1
+    4 3 2 1
+    3 2 1 
+    2 1 
+    1
+----------------------------------------------
+    1 0 1 0 1
+    0 1 0 1
+    0 1 0 
+    1 0
+    1
+----------------------------------------------
+    1
+   21
+  321
+ 4321
+54321
 
 array 
------------------------------------
+----------------------------------------------
 1) write a program to findout given value in unsorted array. if value found display position otherwise display value not found 
 
 2) write a program to count odd and even values in array 
